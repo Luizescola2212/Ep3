@@ -1,0 +1,76 @@
+p {
+    font-size: 30px; /*tamanho da letra*/ 
+    font-family: Georgia, 'Times New Roman', Times, serif; /*lista de fonte*/
+    font-style: oblique; /*estilo da fonte*/
+    color: white; /*cor*/
+    text-align: center;/*alinhamento horizontal*/
+    justify-content: space-around;/*alinhar o eixo principal*/
+    font-weight: bolder; /*intensidade da fonte (negrito,normal) */
+    background: rgba(0, 0, 0, 0.5); /*borda e fundo*/
+    border-radius: 7.5px;
+  /*paragrafo ou body, tamanho, alinhamento e intensidade*/
+}
+body {
+    background-image: url(imagens/Design\ sem\ nome.png);
+    text-align: center; /* um ao lado do autro e alinhamento*/
+    background-attachment: fixed; /*fixa imagem e abaixo alinhamento*/
+    justify-content: space-around;
+  /*pagina;site alinhar ao lado do outro e fixar imagem*/
+}
+.img{
+    display: inline;
+    margin: 50px 225px 50px 225px;
+    transition: 200ms linear;
+    transform: scale(1.05);
+}
+/*posicionar lado a lado, definir margem e criar uma animação na imagem*/
+.nav{
+    display: inline; /*posicionar lado a lado*/
+    text-align: center; /*alinhamento central*/
+    margin-inline: 100px; /*adicionar margem*/
+    position: relative; /*posicão do elemento*/
+    top: -20px; /*espaço acima do elemnto*/
+/* aponta outras paginas*/
+}
+.header{
+    background: linear-gradient(45deg, rgba(116, 116, 116, 0.808), rgba(43, 43, 43, 0.678)); /*fundo; cabeçalho*/
+    border-radius: 7.5px; /*definir bordas*/
+  /* cabeçalho e fundo*/
+}
+.link_nav{
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+  /*mudar tamanho, cor e fonte dos tópicos paginas*/
+}
+.logo {
+    width: 120px;
+    position: relative;
+    top: 30px;
+    color: black;
+    text-decoration: none;
+  /* define largura, posicao, cor e sublinhagem*/
+}
+
+.princi {
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+    color: white;
+    text-align: center;
+    justify-content: space-around;
+    font-weight: bolder;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 7.5px;
+  /*principais elementos*/	
+}
+
+.ft {
+    background: linear-gradient(45deg, rgba(116, 116, 116, 0.808), rgba(43, 43, 43, 0.678));
+    border-radius: 7.5px;
+  /*defini o background do footer e o raio da borda*/
+}
+.pf {
+    text-align: center;
+  /*alinha o texto do footer*/
+}
